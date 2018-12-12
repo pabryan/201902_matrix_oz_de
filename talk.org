@@ -1,0 +1,29 @@
+#+TITLE: Hyperbolic 3-manifolds, embeddings and an invitation to the Cross Curvature Flow
+#+BEAMER_HEADER: \subtitle{Matrix Australia/German DG In The Large\\Joint work with Mohammad Ivaki and Julian Scheuer}
+#+AUTHOR: Paul Bryan (Macquarie University)
+#+EMAIL: pabryan@gmail.com
+#+DATE: Feb 2019
+
+#+SETUPFILE: ~/.emacs.d/org-templates/bibliography.org
+
+#+OPTIONS: H:2 toc:t
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [presentation]
+#+BEAMER_THEME: Boadilla
+#+LaTeX_HEADER: \AtBeginSection[]{\begin{frame}\frametitle{Table of Contents}\tableofcontents[currentsection]\end{frame}}
+#+LaTeX_HEADER: \setbeamertemplate{navigation symbols}{}
+#+LaTeX_HEADER: \input{local_definitions}
+
+#+LaTex_HEADER: \titlegraphic{\includegraphics[height=.2\textheight]{logo.png}}
+
+* Abstract                                                         :noexport:
+
+Hyperbolic three manifolds, particularly those of finite volume, are important in the study of three-manifold topology. Out of the eight geometries arising in Thurston's geometrisation program, only the hyperbolic ones are not explicitly enumerated. These manifolds carry a lot of structure and rigidity as in the famous Mostow rigidity theorem classifying hyperbolic structures by homotopy type. I will focus on the case of compact three-manifolds admitting a metric of negative sectional curvature. By the Cartan-Hadamard theorem, the universal cover of such manifolds is \(\mathbb{R}^3\) equipped with a metric of negative sectional curvature, invariant under a Lie group with compact quotient. The topological complexity is then recorded in the symmetry group. The metric on the universal cover is (linearly) homotopic to the constant curvature metric, but the challenge is obtaining a homotopy preserving the symmetry group.
+
+I will introduce the cross curvature flow as a promising tool for overcoming this challenge. Under an integrability condition ensuring isometric embeddability in Minkowksi space as a spacelike co-compact hypersurface, the situation is completely understood and smooth convergence to a hyperbolic metric is ensured providing the necessary symmetry-group-invariant homotopy. I will also describe the difficulties faced in the general case, and discuss some stability results.
+
+* Thurston's Geometrisation Program
+* Hyperbolic Three Manifolds
+* Embeddability
+* The Cross Curvature Flow
+
